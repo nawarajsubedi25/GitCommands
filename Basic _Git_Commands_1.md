@@ -51,6 +51,11 @@ This command lists all the files that have to be committed.
 8. git rm
    git rm [file]  
 This command deletes the file from your working directory and stages the deletion.
+   git rm --cached [file] 
+   Note: 
+    If you just use rm, you will need to follow it up with git add <fileRemoved>.  git rm does this in one step.
+    You can also use git rm --cached which will remove the file from the index (staging it for deletion on the next commit), 
+    but keep your copy in the local file system.
 ~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~
 9. git log
@@ -110,3 +115,24 @@ This command lists all stashed changesets.
     git stash drop  
 This command discards the most recently stashed changeset
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~
+17. If index lock 
+    git rm -f ./.git/index.lock
+    git init 
+This will removed lock git 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~
+18. To go to directory 
+    cd [directory]
+    ***********************
+    Create directory
+    mkdir user1
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+19. To create branch 
+    git branch user1  
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20. To checkout branch 
+    Git checkout user1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
