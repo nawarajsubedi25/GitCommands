@@ -1,4 +1,4 @@
-### Basic Git Commands 
+### Basic Git Commands 1
 ~~~~~~
 1. git config
    git config –global user.name “[name]”  
