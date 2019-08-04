@@ -9,6 +9,11 @@ This command sets the author name and email address respectively to be used with
 2. git clone
    git clone [url] 
 This command is used to obtain a repository from an existing URL. URL should be in (https://)
+   git clone --single-branch --branch <branchname> <remote-repo>
+This will clone a specific branch (branchname). 
+   or 
+   git clone -branch new_feature git://remoterepository.git
+This would clone only the new_feature branch from the remote Git repository.
 ~~~~~~~
 ~~~~~~~
 3. git add
@@ -66,10 +71,12 @@ This command is used to list the version history for the current branch.
 10. git branch
     git branch  
 This command lists all the local branches in the current repository.
-   git branch [branch name]  
+    git branch [branch name]  
 This command creates a new branch.
-  git branch -d [branch name]  
+    git branch -d [branch name]  
 This command deletes the feature branch.
+    git branch -a
+This will give the list of all branch. 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 11. git checkout
