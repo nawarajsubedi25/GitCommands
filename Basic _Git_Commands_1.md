@@ -150,3 +150,7 @@ This will removed lock git
     $ git branch role_authentication
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+21. Merge branch to Master.
+    $ git checkout master
+    $ git merge role_authentication
+    $ git push master
