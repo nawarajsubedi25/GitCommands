@@ -104,6 +104,10 @@ This command sends the branch commits to your remote repository.
    git push –all [variable name]  
 This command pushes all branches to your remote repository.
    git push [variable name] :[branch name]  
+   eg.
+   Raj@Nawaraj MINGW64 ~/Desktop/CS6400-2019-03-Team40 (role_authentication)
+   $ git push -u origin role_authentication
+
 This command deletes a branch on your remote repository.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -142,4 +146,7 @@ This will removed lock git
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 20. To checkout branch 
     Git checkout user1
+    eg.
+    $ git branch role_authentication
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
